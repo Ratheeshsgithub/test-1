@@ -1,499 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <style>
-          /* Hide scrollbar for Chrome, Safari and Opera */
-          .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-        /* Hide scrollbar for IE, Edge and Firefox */
-        .no-scrollbar {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="bg-black ">
-    <section class="flex sm:flex-row justify-center items-start space-x-1 pt-3 px-3">
-        <div class="w-1/4 h-[670px] rounded-lg bg-black sticky top-20 overflow-hidden">
-            <div class="bg-[#121212] h-auto w-full rounded-xl p-5 space-y-5 mb-2">
-                <div class="flex gap-x-1 items-center">
-                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"  height="25px" width="25px">
-                    <path fill="#1ed760" d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8Z"/>
-                    <path d="M406.6 231.1c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3zm-31 76.2c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm-26.9 65.6c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4z"/>
-                    </svg>
-                    <h1 class="font-bold md:text-xl sm:text-sm text-white">spotify</h1>
-                </div>
-                <div class="flex items-center gap-x-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0,0,256,256">
-                        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-0.26712,0.00003 -0.52312,0.10694 -0.71094,0.29688l-10.08594,8.80078c-0.12774,0.09426 -0.20313,0.24359 -0.20312,0.40234c0,0.27614 0.22386,0.5 0.5,0.5h2.5v8c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-6h4v6c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-8h2.5c0.27614,0 0.5,-0.22386 0.5,-0.5c0.00001,-0.15876 -0.07538,-0.30808 -0.20312,-0.40234l-10.08008,-8.79492c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.18782,-0.18994 -0.44382,-0.29684 -0.71094,-0.29687z"></path></g></g>
-                        </svg>
-                    <h1 class="font-bold text-xl text-white">Home</h1>
-                </div>
-                <div class="flex items-center gap-x-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0,0,256,256">
-                        <g fill="#d4d3d3" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M13,3c-5.511,0 -10,4.489 -10,10c0,5.511 4.489,10 10,10c2.39651,0 4.59738,-0.85101 6.32227,-2.26367l5.9707,5.9707c0.25082,0.26124 0.62327,0.36648 0.97371,0.27512c0.35044,-0.09136 0.62411,-0.36503 0.71547,-0.71547c0.09136,-0.35044 -0.01388,-0.72289 -0.27512,-0.97371l-5.9707,-5.9707c1.41266,-1.72488 2.26367,-3.92576 2.26367,-6.32227c0,-5.511 -4.489,-10 -10,-10zM13,5c4.43012,0 8,3.56988 8,8c0,4.43012 -3.56988,8 -8,8c-4.43012,0 -8,-3.56988 -8,-8c0,-4.43012 3.56988,-8 8,-8z"></path></g></g>
-                        </svg>
-                    <h1 class="font-bold text-xl text-white">Search</h1>
-                </div>
-            </div>
-            <div class="bg-[#121212] h-auto w-full rounded-xl px-2 py-3 space-y-3">
-                <div class="flex justify-between">
-                    <div class="flex justify-center gap-x-3"> 
-                        <img class="w-5 h-5" src="/assets/icons8-music-library-16.png" alt="">
-                        <h1 class="font-bold text-gray-300">Your library</h1>
-                    </div>
-                    
-                    <h1 class="font-bold text-gray-300 text-2xl">+</h1>
-                </div>
-                <div class="bg-[#1F1F1F] h-3/4 w-full rounded-xl p-5 ">
-                    <div class="h-1/4 w-full rounded-xl space-y-5">
-                        <div>
-                            <h1 class="font-bold text-white">Create your first playlist</h1>
-                        </div>
-                        <div>
-                            <h1 class="font-bold text-white">It's easy, we'll help you</h1>
-                        </div>
-                        <div>
-                            <button class="py-2 px-3 bg-slate-50 rounded-3xl">Create playlist</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="bg-[#1F1F1F] h-3/4 w-full rounded-xl p-5">
-                    <div class="h-1/4 w-full rounded-xl space-y-5">
-                        <div>
-                            <h1 class="font-bold text-white">Create your first playlist</h1>
-                        </div>
-                        <div>
-                            <h1 class="font-bold text-white">It's easy, we'll help you</h1>
-                        </div>
-                        <div>
-                            <button class="py-2 px-3 bg-slate-50 rounded-3xl">Browse podcasts</button>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="flex text-sm gap-x-3 text-white pt-16">
-                    <h1>Legal</h1>
-                    <h1>safety & privacy center</h1>
-                    <h1>privacy policy</h1>
-                    <h1>cookies</h1>
-                </div>
-                <div class="flex text-sm gap-x-3 text-white">
-                    <h1>About us</h1>
-                    <h1>Accessibility</h1>
-                </div>
-                <div class="flex text-sm gap-x-3 text-white">
-                    <h1>cookies</h1>
-                </div>
-                <div class="pb-12">
-                    <button class="text-white text-sm font-bold px-3 py-2 border border-gray-400 rounded-3xl">English</button>
-                </div>
-            </div>
+<body class="bg-[#cac7ff] ">
+  <div class="min-h-screen flex justify-center items-center py-10 px-4 sm:px-2">
+    <div class="flex flex-col justify-center items-center w-full max-w-lg lg:max-w-screen-lg bg-white  ">
+      <div class="w-full bg-white py-3">
+        <div class="flex items-center pl-4 lg:pl-14 gap-x-2 ">
+          <div class="h-6 w-3 bg-[#3E38F5]"></div>
+          <h5 class="font-bold text-2xl text-[#06006D]">Invooce</h5>
         </div>
-    
-        <!--second section-->
-    
-        <div class="w-3/4 h-[670px] rounded-xl bg-[#1D1D1D] overflow-y-auto overflow-hidden no-scrollbar">
-            <div class="bg-[#101010] h-14 rounded-t-xl w-full flex justify-between gap-x-2 px-3">
-                <div class="flex justify-center gap-x-2 items-center">
-                    <div class="rounded-full flex justify-center items-center bg-[#090909] h-7 w-7 relative">
-                        <div class="static ">
-                            <svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="white" height="20px" width="20px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z" fill="white"></path></g></svg>
-                        </div>
-                    </div>
-                    <div class="rounded-full flex justify-center items-center bg-[#090909] h-7 w-7 relative">
-                        <div>
-                            <svg fill="white" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001 c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213 C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606 C255,161.018,253.42,157.202,250.606,154.389z"></path> </g></svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex justify-center items-center gap-x-3">
-                    <h1 class="text-white font-bold">Sign up</h1>
-                    <h1><button class="bg-white py-2 px-5 rounded-3xl font-bold text-black">Log in</button></h1>
-                </div>
+        <div class="bg-slate-500 border-b w-full"></div>
+      </div>
+      <div class="flex flex-col items-center pb-12 lg:pb-3 w-full sm:p-8">
+        <div class="w-full lg:w-96 flex-row justify-start space-y-2">
+          <div><h1 class="font-semibold sm:text-2xl md:text-3xl lg:text-4xl sm:py-3 lg:py-2 text-start lg:text-left">Login</h1></div>
+          <div class="flex items-center font-semibold justify-start">
+            <h5>Hi, Welcome back</h5>
+            <img class="w-4 h-4 ml-2" src="/assets/icons8-waving-hand-emoji-48.png" alt="">
+          </div>
+          <div class="py-5 w-full flex justify-center">
+            <button type="button" class="flex items-center justify-center text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-1 mb-2 w-full lg:w-96">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 48 48">
+                <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
+                <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
+                <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+              </svg>
+              <div class="text-center px-3"><h5 class="text-xs font-bold py-1">Login with Google</h5></div>
+            </button>
+          </div>
+          <div class="flex justify-center items-center w-full">
+            <div class="bg-slate-200 h-px w-1/4"></div>
+            <div>
+              <h5 class="text-gray-300 font-semibold md:text-sm sm:text-xs md:px-4 sm:px-1">or Login with Email</h5>
             </div>
-            <div class="flex justify-between items-center pt-5 px-4">
-                <h1 class="text-white font-bold text-2xl">Popular artists</h1>
-                <h1 class="text-gray-400 font-bold text-sm">Show all</h1>
+            <div class="bg-slate-200 h-px w-1/4"></div>
+          </div>
+          <div>
+            <h5 class="font-semibold">Email</h5>
+          </div>
+          <div class="py-2 mb-3">
+            <input type="text" class="px-3 py-2 w-full lg:w-96 rounded-md border border-gray-300" placeholder="E.g.ratheesh@email.com">
+          </div>
+          <div>
+            <h5 class="font-semibold">Password</h5>
+          </div>
+          <div class="py-[1px] relative">
+            <input type="password" class="px-3 py-2 w-full lg:w-96 rounded-md border border-gray-300" placeholder="Enter your password">
+            <svg class="absolute right-3 top-4 w-6 h-6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+              <path d="M 25 7 C 20.038 7 16 11.038 16 16 L 16 20 C 14.343 20 13 21.343 13 23 L 13 38 C 13 39.657 14.343 41 16 41 L 34 41 C 35.657 41 37 39.657 37 38 L 37 23 C 37 21.343 35.657 20 34 20 L 34 16 C 34 11.038 29.962 7 25 7 z M 25 8 C 29.411 8 33 11.589 33 16 L 33 20 L 17 20 L 17 16 C 17 11.589 20.589 8 25 8 z M 16 21 L 34 21 C 35.105 21 36 21.895 36 23 L 36 38 C 36 39.105 35.105 40 34 40 L 16 40 C 14.895 40 14 39.105 14 38 L 14 23 C 14 21.895 14.895 21 16 21 z M 19.5 29 C 18.672 29 18 29.672 18 30.5 C 18 31.328 18.672 32 19.5 32 C 20.328 32 21 31.328 21 30.5 C 21 29.672 20.328 29 19.5 29 z M 25 29 C 24.172 29 23.5 29.672 23.5 30.5 C 23.5 31.328 24.172 32 25 32 C 25.828 32 26.5 31.328 26.5 30.5 C 26.5 29.672 25.828 29 25 29 z M 30.5 29 C 29.672 29 29 29.672 29 30.5 C 29 31.328 29.672 32 30.5 32 C 31.328 32 32 31.328 32 30.5 C 32 29.672 31.328 29 30.5 29 z"></path>
+            </svg>
+          </div>
+          <div class="flex justify-between mt-2">
+            <div class="flex items-center">
+              <input id="checkbox" type="checkbox" class="w-4 h-4 opacity-20">
+              <label for="checkbox" class="ml-2 md:text-sm sm:text-xs font-medium text-gray-900 dark:text-gray-300">Remember Me</label>
             </div>
-            <div class="flex mt-5 space-x-1">
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-full h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-full h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
+            <div>
+              <h5 class="md:text-sm sm:text-xs font-medium text-[#5753F6] dark:text-gray-300">Forgot password?</h5>
             </div>
-
-            <!--popular albums section-->
-            <div class="flex justify-between items-center pt-8 px-4">
-                <h1 class="text-white font-bold text-2xl">Popular albums</h1>
-                <h1 class="text-gray-400 font-bold text-sm">Show all</h1>
-            </div>
-            <div class="flex mt-5 space-x-1 overflow-x-auto no-scrollbar">
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3 hover:bg-gray-500 hover:rounded-lg ">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!--popular albums section-->
-            <div class="flex justify-between items-center pt-8 px-4">
-                <h1 class="text-white font-bold text-2xl">Popular albums</h1>
-                <h1 class="text-gray-400 font-bold text-sm">Show all</h1>
-            </div>
-            <div class="flex mt-5 space-x-1 overflow-x-auto no-scrollbar">
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3 hover:bg-gray-500 hover:rounded-lg ">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!--popular albums section-->
-            <div class="flex justify-between items-center pt-8 px-4">
-                <h1 class="text-white font-bold text-2xl">Popular albums</h1>
-                <h1 class="text-gray-400 font-bold text-sm">Show all</h1>
-            </div>
-            <div class="flex mt-5 space-x-1 overflow-x-auto no-scrollbar">
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-
-                <div class="h-48 w-48 px-3 hover:bg-gray-500 hover:rounded-lg ">
-                    <div class="rounded-lg h-36 w-36 flex justify-center">
-                        <div class="rounded-full flex justify-center items-center">
-                            <img class="rounded-lg h-36 w-36" src="/assets/0159b09648036de71d9072e3c063fe56.png" alt="">
-                        </div>
-                    </div>
-                    <div class="ml-5 text-white font-bold">
-                        <h1>pritam</h1>
-                        <h1 class="">Artist</h1>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="py-3 w-full flex justify-center">
+            <button type="button" class="flex justify-center items-center text-gray-200 bg-[#3E38F5] border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2 w-full lg:w-96">Login</button>
+          </div>
+          <div class="flex w-full justify-center items-center md:text-sm sm:text-xs">
+            <h1 class="font-semibold text-gray-500 flex ">Not registered yet? <span class="text-[#6E6AF8] md:mx-2 sm:mx-1 font-bold">Create an account</span>
+              <svg viewBox="0 0 24 24" fill="#4169e1" xmlns="http://www.w3.org/2000/svg" width="15" height="20" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M7 17L17 7M17 7H8M17 7V16" stroke="#4169e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+            </h1>
+          </div>
         </div>
-    </section>
-    
+      </div>
+    </div>
+  </div>
 </body>
 </html>
